@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | SIGN 4U</title>
+  <link rel="stylesheet" href="about-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SIGN 4U</div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <div class="container fade-in">
+      <h1>About SIGN 4U</h1>
+      <p>
+        At SIGN 4U, we are passionate about creating impactful and innovative branding experiences.
+        With a decade of experience in signage and visual branding, we bring your ideas to life
+        with precision, creativity, and high-quality materials. Whether it’s a glowing signboard,
+        in-shop branding, or a full-scale roadshow, we ensure your brand stands out.
+      </p>
+
+      <h2>Our Vision</h2>
+      <p>
+        To be the leading name in branding and advertising by providing reliable, creative,
+        and customer-centric solutions.
+      </p>
+
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Experienced and creative professionals</li>
+        <li>Modern tools and high-quality materials</li>
+        <li>Timely delivery and customer satisfaction</li>
+        <li>End-to-end branding solutions</li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
